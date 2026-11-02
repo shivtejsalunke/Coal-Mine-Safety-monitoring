@@ -1,0 +1,13 @@
+{
+  "name": "node-red-cloud-dashboard",
+  "version": "1.0.0",
+  "description": "Coal mine safety IoT dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red --userDir ./ flows.json"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-dashboard": "^3.6.0"
+  }
+}
