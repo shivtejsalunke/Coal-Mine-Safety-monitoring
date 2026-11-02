@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Coal mine safety IoT dashboard",
   "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "node-red --userDir ./ flows.json"
   },
